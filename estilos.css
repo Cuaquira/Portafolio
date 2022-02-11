@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_logo{
+    float: left;
+}
+.nav{
+    padding-top: 1.5rem;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav_menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4em;
+}
