@@ -49,7 +49,7 @@ justify-content: space-between;
 .container{
     width: 100%;
     display: flex;
-    max-width: 1800px;
+    max-width:100%;
     
 }
 .card{
@@ -99,5 +99,153 @@ justify-content: space-between;
 .acerca{
     width: 100%;
     display: flex;
-   
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.contenido_acerca h3{
+    font-size: 35px;
+    color: rgb(216, 25, 35);
+    padding-bottom: 30px;
+}
+.contenido_acerca p{
+    padding-top: 20px;
+    font-size: 25px;
+}
+.cuadrado{
+   position: absolute;
+   left:67% ;
+}
+.acerca_logo{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-evenly;
+}
+.cont{
+    text-align: center;
+    padding-top: 10px;
+}
+.uvm{
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.section_habilidades{
+    padding-top: 10rem;
+}
+.title{
+    padding-bottom: 5rem;
+    padding-left: 20px;
+}
+.title h3{
+    font-size: 30px;
+    color: rgb(216, 25, 35);
+}
+.bloque{
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+  width:90px;
+  height:60px;
+}
+.bloque::after{
+  content:"";
+  position:relative;
+  width:50px;
+  height:3px;
+  background:rgb(9, 156, 156);;
+  right: 3rem;
+  bottom: 1.79rem;
+}
+.bloque h1{
+    color: rgb(9, 156, 156);
+    position: relative;
+    left: 1.5rem;
+}
+.primero_hab{
+    display: flex;
+    position: relative;
+    left: 250px;
+    padding-bottom: 1rem;
+    padding-right: 30rem;
+}
+.primero_hab p{
+    position: relative;
+    right: 20rem;
+    top: 1rem;
+    left: 9rem;
+    font-size: 20px;
+}
+.mi_portafolio{
+    width: 100%;
+    display: flex;
+    max-width:100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.card_port{
+    width: 100%;
+    margin: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.card_port:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.card_port img{
+    width: 100%;
+    height: 200px;
+    border-radius: 1px;
+}
+.card_port p{
+    padding-top: 0.2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 7px;
+}
+.title_port{
+    padding-left: 20px;
+}
+.title_port h2{
+    font-size: 30px;
+    color: rgb(216, 25, 35);
+}
+.contactos{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.title_contacto{
+    font-size: 30px;
+    padding-left: 20px;
+    color: rgb(216, 25, 35);;
+    padding-bottom: 90px;
+}
+.container_final{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.container_caja{
+    width: 190px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+.container_caja img{
+    padding-top: 1.5rem;
+    width: 50px;
+    padding-bottom: 1rem;
+}
+.email_contacto{
+    padding-top: 1rem;
+}
+.texto_contactos h3{
+   padding-bottom: 1rem;
+}
+.texto_contactos p{
+    color: rgb(146, 145, 145);
+}
+.final{
+    text-align: center;
+    color: rgb(20, 122, 122);
 }
