@@ -99,8 +99,8 @@ justify-content: space-between;
 .acerca{
     width: 100%;
     display: flex;
-    padding-top: 60px;
-    padding-left: 20px;
+    padding-top: 3.75rem;
+    padding-left: 1.25rem;
 }
 .contenido_acerca h3{
     font-size: 35px;
@@ -113,7 +113,7 @@ justify-content: space-between;
 }
 .cuadrado{
    position: absolute;
-   left:67% ;
+   left:62.5rem;
 }
 .acerca_logo{
     display: flex;
@@ -122,18 +122,18 @@ justify-content: space-between;
 }
 .cont{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 .uvm{
-    padding-top: 35px;
-    padding-bottom: 25px;
+    padding-top: 2.1875rem;
+    padding-bottom: 1.5625rem;
 }
 .section_habilidades{
     padding-top: 10rem;
 }
 .title{
     padding-bottom: 5rem;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .title h3{
     font-size: 30px;
@@ -144,14 +144,14 @@ justify-content: space-between;
   display:flex;
   justify-content:center;
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
-  width:90px;
-  height:60px;
+  width:5.625rem;
+  height:3.75rem;
 }
 .bloque::after{
   content:"";
   position:relative;
-  width:50px;
-  height:3px;
+  width:3.125rem;
+  height:0.1875rem;
   background:rgb(9, 156, 156);;
   right: 3rem;
   bottom: 1.79rem;
@@ -164,7 +164,7 @@ justify-content: space-between;
 .primero_hab{
     display: flex;
     position: relative;
-    left: 250px;
+    left: 15.625rem;
     padding-bottom: 1rem;
     padding-right: 30rem;
 }
@@ -184,7 +184,7 @@ justify-content: space-between;
 }
 .card_port{
     width: 100%;
-    margin: 20px;
+    margin: 1.25rem;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
@@ -193,16 +193,16 @@ justify-content: space-between;
 }
 .card_port img{
     width: 100%;
-    height: 200px;
+    height: 12.5rem;
     border-radius: 1px;
 }
 .card_port p{
     padding-top: 0.2rem;
     padding-bottom: 1.5rem;
-    padding-left: 7px;
+    padding-left: 0.4375rem;
 }
 .title_port{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .title_port h2{
     font-size: 30px;
@@ -214,9 +214,9 @@ justify-content: space-between;
 }
 .title_contacto{
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 1.25rem;
     color: rgb(216, 25, 35);;
-    padding-bottom: 90px;
+    padding-bottom: 5.625rem;
 }
 .container_final{
     display: flex;
@@ -226,14 +226,14 @@ justify-content: space-between;
     padding-right: 20%;
 }
 .container_caja{
-    width: 190px;
-    height: 200px;
+    width: 11.875rem;
+    height: 12.5rem;
     text-align: center;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
 }
 .container_caja img{
     padding-top: 1.5rem;
-    width: 50px;
+    width: 3.125rem;
     padding-bottom: 1rem;
 }
 .email_contacto{
